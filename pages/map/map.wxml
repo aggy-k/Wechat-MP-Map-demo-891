@@ -1,0 +1,10 @@
+<!--pages/map/map.wxml-->
+<view class="main">
+  <map id="flat-map"
+    scale="12"
+    longitude="{{longitude}}"
+    markers="{{markers}}"
+    latitude="{{latitude}}"
+    bindmarkertap="selectMarker">
+  </map>
+</view>
